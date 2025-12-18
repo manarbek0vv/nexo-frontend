@@ -1,0 +1,65 @@
+.container {
+    width: 350px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: white;
+    padding: 40px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+    .cake {
+        width: 80px;
+    }
+
+    .title {
+        margin-top: 10px;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .subtitle {
+        margin-top: 20px;
+        color: black;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .blue {
+        color: rgb(65, 80, 247);
+        font-size: 14px;
+        text-align: center;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+
+    .selects {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 8px;
+    }
+
+    .text {
+        margin-top: 15px;
+        color: rgb(115, 115, 115);
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .buttons {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+
+        .buttonWrapper {
+            height: 32px;
+            width: 100%;
+        }
+    }
+}

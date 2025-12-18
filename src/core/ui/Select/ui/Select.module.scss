@@ -1,0 +1,22 @@
+.container {
+    background-color: white;
+    height: 36px;
+    padding: 0 24px 0 8px;
+    color: rgb(115, 115, 115);
+    border-radius: 3px;
+    border: 0.8px solid rgb(219, 219, 219);
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background: url('/down-array.svg') no-repeat;
+    background-position: calc(100% - 8px) center;
+    background-size: 12px;
+}
+
+.option {
+    color: rgb(115, 115, 115);
+    font-size: 12px;
+    font-weight: 400;
+}

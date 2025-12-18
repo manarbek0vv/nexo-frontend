@@ -1,0 +1,57 @@
+.wrapper {
+    width: 100%;
+    height: 38px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .placeholder {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgb(115, 115, 115);
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        transform: translateX(0) translateY(0) scale(1);
+        transition: all 100ms ease-out;
+        user-select: none;
+        cursor: text;
+    }
+
+    .active {
+        transform: translateY(-30%) translateX(-7.8%) scale(0.85);
+    }
+
+    .input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        padding: 8px;
+        background-color: rgb(247, 247, 247);
+    }
+
+    .activeInput {
+        color: black;
+        padding: 14px 8px 2px 8px;
+    }
+
+    .showSecret {
+        position: absolute;
+        right: 5%;
+        z-index: 1;
+        color: black;
+        font-size: 14px;
+        border-radius: 6px;
+        border: 1px solid rgb(174, 174, 174);
+        padding: 4px 8px;
+        cursor: pointer;
+        user-select: none;
+    }
+}
