@@ -4,7 +4,7 @@ import Select from '@core/ui/Select/ui/Select';
 import type { BirthdayFormData } from '@modules/signup/model/types';
 import { useState } from 'react';
 import { getDaysArrayInMonth, MONTHS, YEARS } from '@modules/signup/model/lib';
-import { useModal } from '@core/ModalProvider/model/context';
+import { useModal } from '@core/tools/ModalProvider/model/context';
 import BirthdayInfo from '../BirthdayInfo/BirthdayInfo';
 
 interface BirthdayFormProps {

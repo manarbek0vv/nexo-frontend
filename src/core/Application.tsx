@@ -1,6 +1,6 @@
-import Container from './Container/ui/Container';
-import { ModalProvider } from './ModalProvider/ModalProvider';
-import Router from './Router/Router';
+import Container from './tools/Container/ui/Container';
+import { ModalProvider } from './tools/ModalProvider/ModalProvider';
+import Router from './tools/Router/Router';
 
 function Application() {
 
